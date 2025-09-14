@@ -8,6 +8,19 @@ package taller5;
  *
  * @author marya
  */
-public class pruebaPersona {
+class pruebaPersona {
     
+    public static void main(String[] args) {
+    
+    Persona persona = new Persona ("Andres", 20);
+    
+        System.out.println("Nombre: " + persona.nombre);
+    
+        System.out.println("Edad: " + persona.edad);
+        
+        System.out.println("Nombre get: " + persona.getNombre());
+        
+        persona.setNombre("Luis");
+        System.out.println("Nombre nuevo con set: " + persona.getNombre());
+    }  
 }

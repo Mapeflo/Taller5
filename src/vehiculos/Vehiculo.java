@@ -14,8 +14,5 @@ package vehiculos;
 
     Vehiculo(String tipo) {
         this.tipo = tipo;
-    }
-    
-    
-    
+    }  
 }

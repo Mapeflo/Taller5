@@ -16,7 +16,5 @@ class pruebaVehiMoto {
    Vehiculo vehiculo = new Vehiculo("Camioneta");    
    Moto moto = new Moto("Doble proposito");    
        
-       System.out.println("Tipo de vehiculo: " + vehiculo.tipo);
-       System.out.println("Tipo de moto" + moto.tipo);
     } 
 }
