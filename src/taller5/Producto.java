@@ -23,5 +23,5 @@ package taller5;
      
            System.out.println("Nombre: " + nombre + ",Precio: " + precio + ",Stock: " + stock);
     }  
-        
-}
+    
+       }
